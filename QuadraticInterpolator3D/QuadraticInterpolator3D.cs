@@ -172,7 +172,7 @@ namespace QuadraticInterplator2D
                                     String.Format("{0:0.00000000}", x2),
                                     String.Format("{0:0.00000000}", x3),
                                     String.Format("{0:0.00000000}", x4)
-                                };
+                                    };
                                     ListViewItem listViewItem = new ListViewItem(row);
                                     lvSamplingPoints.Items.Add(listViewItem);
                                 }
@@ -206,7 +206,7 @@ namespace QuadraticInterplator2D
             rbComputeForX1.Text = nameX1;
             rbComputeForX2.Text = nameX2;
             rbComputeForX3.Text = nameX3;
-            rbComputeForX4.Text = nameX3;
+            rbComputeForX4.Text = nameX4;
         }
 
         private void compute()
